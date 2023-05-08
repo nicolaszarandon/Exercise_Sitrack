@@ -1,0 +1,11 @@
+app:
+  external:
+    sitrack:
+      url: https://test-externalrgw.ar.sitrack.com/frame
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          client:
+            RestTemplate: DEBUG
